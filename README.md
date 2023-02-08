@@ -7,7 +7,7 @@ This is the forked repository of InterSCSimulator, a large-scale smart city simu
 The scenarios should be in the folder like the example scenario:
 
 ```
-src/mock-simulators/smart_city_model/example/config.xml
+src/mock-simulators/smart_city_model/example
 ```
 
 Others:
