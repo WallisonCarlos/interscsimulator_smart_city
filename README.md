@@ -42,7 +42,7 @@ docker build -t interscsimulator .
 4. Run simulation:
 - CONFIG_PATH: your scenario configuration file directory
 - USER: always root
-- /src/mock-simulators/smart_city_model/output: is the output folder where your output is write
+- /src/mock-simulators/smart_city_model/output: is the output folder where your output is written
 ```
 docker run -t -w /src/mock-simulators/smart_city_model/src -h yourhostname.com -v /your/local/respository:/src/mock-simulators/smart_city_model/output -e USER=root -e CONFIG_PATH=/src/mock-simulators/smart_city_model/your_scenario/config.xml interscsimulator
 ```
